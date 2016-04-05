@@ -1,0 +1,17 @@
+$PBExportHeader$p_teste_menu_commts.srj
+$PBExportComments$Generated COM/MTS Component Project
+GeneratorID:{3D326055-5AB3-11D1-9281-00A0247712F1}GENBC00000058
+L	C:\Users\franco\Desktop\teste_menu.pbl
+O	n_teste_menu
+
+GENVERSION:1.7
+PBCOMSERVER:inproc	dual	sta	c:\users\franco\desktop\teste_menu.dll	c:\users\franco\desktop\teste_menu.idl	PB90	1	0	{00000000-0000-0000-0000-000000000000}	N	
+COMMENT:
+PBCOMOBJ:n_teste_menu	COClass_n_teste_menu	PB90.n_teste_menu	1.0	{2934A67B-62DA-48B3-B6C6-21514B23B487}	TRUE	1	In_teste_menu	dual	{53A9B6F4-00C9-41C0-BA0D-1980FE1A14CA}	Supported	N	TRUE	FALSE	FALSE
+COMPILE:watc	nodebug	none	yes	no
+TYPELIB:{00000000-0000-0000-0000-000000000000}	0l	1	0	PB90 generated typelib for: teste_menu.dll	TRUE	no	0l	 
+LIBS:0		C:\Users\franco\Desktop\teste_menu.pbl
+MTSDEPLOY:local	 	 	N	3	Interactive User	 	Local	N	3	Y	Y	N	 	N
+
+
+ 

@@ -1,0 +1,86 @@
+$PBExportHeader$m_menu_1.srm
+forward
+global type m_menu_1 from menu
+end type
+type m_menu1 from menu within m_menu_1
+end type
+type m_opção1 from menu within m_menu1
+end type
+type m_0 from menu within m_menu1
+end type
+type m_menu1 from menu within m_menu_1
+m_opção1 m_opção1
+m_0 m_0
+end type
+global type m_menu_1 from menu
+m_menu1 m_menu1
+end type
+end forward
+
+global type m_menu_1 from menu
+m_menu1 m_menu1
+end type
+global m_menu_1 m_menu_1
+
+on m_menu_1.create
+m_menu_1=this
+call super::create
+this.m_menu1=create m_menu1
+this.Item[UpperBound(this.Item)+1]=this.m_menu1
+end on
+
+on m_menu_1.destroy
+call super::destroy
+destroy(this.m_menu1)
+end on
+
+type m_menu1 from menu within m_menu_1
+m_opção1 m_opção1
+m_0 m_0
+end type
+
+on m_menu1.create
+call super::create
+this.text = "menu 1"
+this.m_opção1=create m_opção1
+this.m_0=create m_0
+this.Item[UpperBound(this.Item)+1]=this.m_opção1
+this.Item[UpperBound(this.Item)+1]=this.m_0
+end on
+
+on m_menu1.destroy
+call super::destroy
+destroy(this.m_opção1)
+destroy(this.m_0)
+end on
+
+type m_opção1 from menu within m_menu1
+end type
+
+on m_opção1.create
+call super::create
+this.text = "opção 1 do menu 1"
+end on
+
+on m_opção1.destroy
+call super::destroy
+end on
+
+event clicked;OpenSheet (w_acad_1,w_principal,1,original!)
+end event
+
+type m_0 from menu within m_menu1
+end type
+
+on m_0.create
+call super::create
+this.text = "opcao 2 do menu 1"
+end on
+
+on m_0.destroy
+call super::destroy
+end on
+
+event clicked;messagebox ('menu1', 'opção 2 do menu 1')
+end event
+

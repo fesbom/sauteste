@@ -1,0 +1,27 @@
+$PBExportHeader$f_troca_menu.srf
+global type f_troca_menu from function_object
+end type
+
+forward prototypes
+global function boolean f_troca_menu (window aw_principal, string as_modulo)
+end prototypes
+
+global function boolean f_troca_menu (window aw_principal, string as_modulo);m_menu_1 l_menu_1
+m_menu_2 l_menu_2
+m_menu_3 l_menu_3
+
+choose case as_modulo
+	case 'ACADÊMICO GRADUAÇÃO'
+		aw_principal.changemenu(l_menu_1)
+	
+	case 'FINANCEIRO' 
+		aw_principal.changemenu(l_menu_2)
+		
+	case 'ADMINISTRATIVO'
+		aw_principal.changemenu(l_menu_3)
+		
+end choose
+
+return true
+end function
+

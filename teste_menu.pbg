@@ -3,5 +3,16 @@ Save Format v3.0(19990112)
  "teste_menu.pbl" "";
 @end;
 @begin Objects
+ "m_menu_1.srm" "teste_menu.pbl";
+ "m_menu_2.srm" "teste_menu.pbl";
+ "m_menu_3.srm" "teste_menu.pbl";
+ "w_acad_1.srw" "teste_menu.pbl";
+ "w_col_1.srw" "teste_menu.pbl";
+ "w_menu_principal.srw" "teste_menu.pbl";
+ "p_teste_menu_commts.srj" "teste_menu.pbl";
+ "w_be_1.srw" "teste_menu.pbl";
+ "f_troca_menu.srf" "teste_menu.pbl";
  "w_principal.srw" "teste_menu.pbl";
+ "teste_menu.sra" "teste_menu.pbl";
+ "n_teste_menu.sru" "teste_menu.pbl";
 @end;

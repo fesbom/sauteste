@@ -1,6 +1,9 @@
 drop function f_ds_requerimento_online
 go 
 
+
+/* teste git */ 
+
 create function f_ds_requerimento_online (@nr_requerimento  integer)
 returns varchar(20000)
 as

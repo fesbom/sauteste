@@ -1,0 +1,12 @@
+PushOk GITSCC Info: Closing the project "." (C:\fontespb9_local\SAU 2.0)
+------  New SCC provider or New SCC project ------
+   Deleted SCC metadata in c:\fontespb9_local\sau 2.0\teste_menu.pbl
+PushOk GITSCC Info: Opening the project "" (C:\fontespb9_local\SAU 2.0)
+PushOk GITSCC Info: The Git repository is found at: C:\fontespb9_local\SAU 2.0\.git
+PushOk GITSCC Info: Retrieving extended status information for the files:
+PushOk GITSCC Info: c:\fontespb9_local\sau 2.0\teste_menu.pbt
+Unable to process revision information for c:\fontespb9_local\sau 2.0\teste_menu.pbt  <NULL revision number>
+Serializing SCC Status Cache...
+1 status entries saved in C:\fontespb9_local\SAU 2.0\teste_menus.pbc.
+05/04/2016   17:42 Source control terminated
+PushOk GITSCC Info: Closing the project "" (C:\fontespb9_local\SAU 2.0)

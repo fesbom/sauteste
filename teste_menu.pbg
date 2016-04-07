@@ -14,5 +14,6 @@ Save Format v3.0(19990112)
  "f_troca_menu.srf" "teste_menu.pbl";
  "w_principal.srw" "teste_menu.pbl";
  "teste_menu.sra" "teste_menu.pbl";
+ "d_animal.srd" "teste_menu.pbl";
  "n_teste_menu.sru" "teste_menu.pbl";
 @end;

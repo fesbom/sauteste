@@ -31,6 +31,7 @@ integer ii_menu
 
 //chega de comentários
 end variables
+
 on w_principal.create
 if this.MenuName = "m_menu_1" then this.MenuID = create m_menu_1
 this.mdi_1=create mdi_1
@@ -43,6 +44,8 @@ destroy(this.mdi_1)
 end on
 
 event open;long ll_x, ll_y, ll_h, ll_w
+
+//comentário Telma
 
 ii_menu = 1
 

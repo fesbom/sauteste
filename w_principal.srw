@@ -62,7 +62,7 @@ w_menu_principal.y=0
 w_menu_principal.width=1559
 w_menu_principal.height=112
 
-messagebox ('teste', 'teste')
+messagebox ('teste', 'teste mudando na Telma')
 end event
 
 event resize;long ll_x, ll_y, ll_h, ll_w

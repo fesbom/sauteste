@@ -8,7 +8,7 @@ create function f_curso_turma_otimizada (@cd_disciplina integer,
 returns varchar(255)
 as
 
---teste alteração telma
+--outra alteração
 
 -- refs #24384 : proc para retornar os vários cursos de uma disciplina que foi orimizada
 

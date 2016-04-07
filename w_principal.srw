@@ -62,7 +62,12 @@ w_menu_principal.y=0
 w_menu_principal.width=1559
 w_menu_principal.height=112
 
+messagebox ('teste', 'teste na Telma e no Franco')
+<<<<<<< .mine
 messagebox ('teste', 'teste mudando no Franco')
+=======
+messagebox ('teste', 'teste mudando na Telma')
+>>>>>>> .theirs
 end event
 
 event resize;long ll_x, ll_y, ll_h, ll_w
